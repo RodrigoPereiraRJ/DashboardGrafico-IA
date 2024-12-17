@@ -1,0 +1,324 @@
+@import _Variables
+.Dashboard
+    position: relative
+    width: 100%
+    height: 100vh
+
+   
+    & .statusresponsive
+        position: absolute
+        box-shadow: $boxShadowmenus
+        top: 610px
+        width: 50%
+        height: 250px
+        left: 10%
+        display: flex
+        justify-content: center  
+        & .statuslayoult
+            height: 30px
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: $colormenuIAText 
+            width: 50%
+            & span
+                color: white      
+        & .statusinfo
+            position: absolute
+            width: 100%
+            height: 100%
+            display: flex
+            justify-content: center   
+            & img 
+                position: absolute
+                width: 330px
+                height: 100%           
+            & p
+                position: relative
+                font-family: 'Poppins'
+                font-size: 15px
+                margin-top: 20px
+                padding: 17px     
+
+    & .cocozin
+        position: absolute
+        width: 50%
+        height: 400px
+        top: 150px
+        display: flex
+        justify-content: center
+        left: 10%
+        border-radius: 10px
+        
+        & .graficorenderizado
+            position: relative
+            width: 100%
+            height: 100%
+            border-radius: 10px
+            display: flex
+            justify-content: center
+            align-items: center   
+        & .rendergrafico
+            position: absolute  
+            width: 100%
+            height: 100%
+            
+            & .loading
+                position: relative
+                width: 100%
+                height: 100%
+                display: flex
+                justify-content: center
+                align-items: center   
+                & span
+                    position: relative
+                    color: gray
+                    font-family: 'Poppins'
+                    font-size: 25px
+                    font-weight: 300 
+        
+        
+    
+        
+
+    & .containerrender
+        position: absolute
+        width: 50%
+        height: 400px
+        top: 140px 
+        left: 10%   
+        & .graficorenderizado
+            position: relative
+            width: 100%
+            height: 100%
+            border-radius: 10px
+            box-shadow: $boxShadowmenus
+            display: flex
+            justify-content: center
+            align-items: center              
+        & .rendergrafico
+            position: relative  
+            width: 100%
+            height: 100%
+            
+            & .loading
+                position: relative
+                width: 100%
+                height: 100%
+                display: flex
+                justify-content: center
+                align-items: center  
+               
+                & span
+                    position: relative
+                    color: gray
+                    font-family: 'Poppins'
+                    font-size: 25px
+                    font-weight: 300 
+        
+             
+                      
+    & .status
+        position: absolute
+        box-shadow: $boxShadowmenus
+        top: 610px
+        width: 50%
+        height: 250px
+        left: 10%
+        display: flex
+        justify-content: center  
+        & .statuslayoult
+            height: 30px
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: $colormenuIAText 
+            width: 50%
+            & span
+                color: white      
+        & .statusinfo
+            position: absolute
+            width: 100%
+            height: 100%
+            display: flex
+            justify-content: center   
+            & img 
+                position: absolute
+                width: 330px
+                height: 100%           
+            & p
+                position: relative
+                font-family: 'Poppins'
+                font-size: 15px
+                margin-top: 20px
+                padding: 17px                                 
+    & .div1tutorial,.div2tutorial,.div3tutorial
+        position: absolute
+        width: 330px
+        height: 220px
+        z-index: 1
+        right: 400px
+        animation: animatedivguideline
+        animation-duration: 1s
+        box-shadow:  0 0 50px gray
+        & video
+            position: absolute
+            width: 100%
+            height: 100%
+            object-fit: cover
+    & .div1tutorial
+        top: 150px
+    & .div2tutorial
+        top: 250px
+    & .div3tutorial
+        top: 350px 
+    & .Titlepage
+        position: relative
+        width: 240px
+        height: 200px 
+        & img
+            position: absolute
+            width: 100%
+            height: 100%
+    & .generateform
+        position: relative
+        background-color: $Backgroundcontainermenu
+        box-shadow: $boxShadowmenus
+        display: flex
+        justify-content: center
+        width: 350px
+        height: 100vh
+        margin-left: auto
+        top: -200px
+        overflow-y: auto 
+        
+        & .titulogenerate
+            position: absolute   
+            text-align: center
+            background-color: $ContainerNameinfoUser
+            top: 0
+            height: 100px
+            width: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            & h2
+                font-family: 'Poppins'
+                font-size: 22px
+                color: $h2colortext       
+        & .divform
+            position: relative
+            height: auto
+            margin-top: 80px 
+            padding: 10px
+            width: 100%
+            & form
+                position: relative
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 100%
+                padding: 20px
+                
+                & label
+                    margin: 15px
+                    position: relative
+                    font-family: 'Poppins'
+                    color: $textcolormenu   
+                & select 
+                    position: relative
+                    padding: 4px
+                    border: 1px solid gray              
+                & input
+                    position: relative
+                    height: 30px
+                    margin: 5px
+                    padding: 10px
+                    width: 90%
+                    border: none
+                    border-bottom: 1px solid #78b063
+                    font-family: 'Poppins'   
+                    &:focus
+                        outline: none
+                        border-bottom: 1px solid blue   
+                & button
+                    height: 50px
+                    margin-top: 30px
+                    width: 80%
+                    background-color: $Colorbutton
+                    border: none
+                    color: $colortextbutton
+                    &:hover
+                        cursor: pointer
+                    & a
+                       display: block
+                       text-decoration: none
+                       color: white
+                       
+                       
+
+@media screen and (max-width: 1110px)
+    .cocozin
+        left: 0 !important
+        width: 60% !important
+    .containerrender
+        left: 0 !important
+        width: 60% !important
+    .status
+        left: 0 !important
+        width: 60% !important
+
+@media screen and (max-width: 920px)
+    .Dashboard
+        height: 1580px !important
+    .status
+        width: 100% !important
+        top: 1290px !important
+        box-shadow: none !important
+    .statusresponsive
+        top: 1090px !important
+        width: 100% !important
+        left: 0 !important
+        box-shadow: none !important
+    .Titlepage
+        display: none
+    .generateform
+        top: 0 !important
+        width: 100% !important
+        box-shadow: none !important 
+    input 
+        text-align: center
+        border-bottom: 1px solid gray !important
+    .cocozin
+        top: 520px !important
+        width: 100% !important
+        box-shadow: none !important
+    .containerrender
+        top: 820px !important
+        width: 100% !important     
+    .graficorenderizado
+        box-shadow: none !important
+        top: 50px 
+    .div1tutorial,.div2tutorial,.div3tutorial
+        right: 0 !important
+        width: 35% !important
+
+@media screen and (max-width: 640px)
+    .div1tutorial,.div2tutorial,.div3tutorial
+        display: none
+    .loading span
+       text-align: center
+   
+
+
+                 
+@keyframes animatedivguideline 
+    from
+        opacity: 0
+    to
+        opacity: 1
+    
+              
+            
+            
+
