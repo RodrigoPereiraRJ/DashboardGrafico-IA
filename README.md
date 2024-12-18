@@ -15,7 +15,8 @@ Ele permite a geração de gráficos dinâmicos, atualizados em tempo real, com 
 1. **Chart.js:** Biblioteca poderosa e flexível para visualização de gráficos.
 2. **Google Gemini** API: Para geração e exportação de relatórios com base nos gráficos.
 3. **React:** Framework JavaScript para criação de interfaces dinâmicas e reativas.
-4. **HTML, CSS e JavaScript**: Para estrutura e estilo da aplicação.
+4. **HTML, Sass(Pre-Processador) e JavaScript**: Para estrutura e estilo da aplicação.
+5. **Dotenv(Gerenciamento de Variaveis Seguras de Ambiente)**
 
 ---
 
