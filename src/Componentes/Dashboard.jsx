@@ -410,7 +410,7 @@ function Dashboard() {
                         <label htmlFor="teste" ref={titulodografico}>Titulo do Grafico</label>
                         <input type="text" placeholder='Insira o Titulo do Grafico' required ref={inputtitulografico} onClick={() => tooglediv('div1')} />
                         <label htmlFor="">Labels</label>
-                        <input type="text" id="" placeholder='EX: JANEIRO FEVEIRO MARÇO' required onClick={() => tooglediv('div2')} />
+                        <input type="text" id="" placeholder='EX: JANEIRO FEVEREIRO MARÇO' required onClick={() => tooglediv('div2')} />
                         <label htmlFor="vlw" ref={dataset1}> Datasets
                             <select name="" id="" onChange={corbarra} style={{ position: 'relative', margin: '10px' }}>
                                 <option value="">Cor da barra</option>
