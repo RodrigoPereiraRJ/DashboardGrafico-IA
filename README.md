@@ -10,7 +10,7 @@ Ele permite a geração de gráficos dinâmicos, atualizados em tempo real, com 
 
 ---
 
-🚀 Principais Tecnologias
+ Principais Tecnologias
 ---
 1. **Chart.js:** Biblioteca poderosa e flexível para visualização de gráficos.
 2. **Google Gemini** API: Para geração e exportação de relatórios com base nos gráficos.
@@ -20,7 +20,7 @@ Ele permite a geração de gráficos dinâmicos, atualizados em tempo real, com 
 
 ---
 
-### ⚙️ **Funcionalidades**
+###  **Funcionalidades**
 1. **Geração de gráficos dinâmicos**: Os gráficos refletem as opções selecionadas pelo usuário no menu.
 2. **Relatórios automatizados**: Integração com a API do Google Gemini para criar relatórios detalhados e personalizados.
 3. **Interface amigável e responsiva**: Funciona bem em diferentes dispositivos e é fácil de usar.
@@ -30,7 +30,7 @@ Ele permite a geração de gráficos dinâmicos, atualizados em tempo real, com 
 
 ---
 
-### 🖼️ **Visualizações**
+### 🖼 **Visualizações**
 Confira algumas capturas de tela da aplicação:  
 --
 ![Dashboard Inicial](https://i.ibb.co/Tc7c0M3/Captura-de-tela-2024-12-16-114610.png)  
