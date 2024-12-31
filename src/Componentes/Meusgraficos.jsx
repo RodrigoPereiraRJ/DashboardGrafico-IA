@@ -144,7 +144,7 @@ function Renderlistgrafico() {
      }
 
      function graficopieoptions(options){
-        console.log(options);
+       
         
         const optionsdatepie = {
             plugins: {
@@ -193,7 +193,7 @@ function Renderlistgrafico() {
 
             {graficobar.length > 0 && (
                 graficobar.map((el, index) => (
-                    <div key={index} className={styles.divrenderBar}>
+                    <div key={index} className={styles.divrendergraficos}>
                         <Bar data={graficorender(el)} options={optionsgraficofunction(el)}>
 
                         </Bar>
@@ -202,14 +202,14 @@ function Renderlistgrafico() {
             )}
             {graficoline.length > 0 && (
                 graficoline.map((el, index) => (
-                    <div key={index} className={styles.divrenderline}>
+                    <div key={index} className={styles.divrendergraficos}>
                         <Line data={graficorender(el)} options={optionsgraficofunction(el)}></Line>
                     </div>
                 ))
             )}
             {graficopie.length > 0 && (
                 graficopie.map((el, index) => (
-                    <div key={index} className={styles.divrenderline}>
+                    <div key={index} className={styles.divrendergraficos}>
                         <Pie data={graficorenderpie(el)} options={graficopieoptions(el)}></Pie>
                     </div>
                 ))
